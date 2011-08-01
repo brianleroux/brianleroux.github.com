@@ -2,25 +2,21 @@
 <html>
   <head>
     <title>brian.io - online warren of brianleroux</title>
-    <meta name="viewport" content="width=device-width" />
-    <link rel='stylesheet' href='/css/app.css' />
+    <meta name=viewport content=width=device-width>
+    <link rel=stylesheet href=/css/app.css>
   </head>
   <body>
-  <header>
-    <h1><a href="/">brian.io</a></h1>
-    <section>
-    All around web technology by <a href="http://twitter.com/brianleroux">Brian LeRoux</a>, SPACELORD!1!! 
-    at <a href="http://nitobi.com">Nitobi</a>, working on <a href="http://phonegap.com">PhoneGap</a>.
-    </section>
-  </header>
-    <nav>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/about">about</a></li>
-            <li><a href="http://blog.brian.io">blog</a></li>
-            <li><a href="/contact">contact</a></li>
-        </ul>
-    </nav>
-    <%- body %>
+  <nav>
+    <ul class=clearfix>
+      <li><a href=/>brian.io</a></li>
+      <li><a href=/about>about</a></li>
+      <li><a href=/blog>blog</a></li>
+      <li><a href=/contact>contact</a></li>
+    </ul>
+  </nav> 
+  <%- body %>
+  <script>
+      scrollTo(0,1)
+  </script>
   </body>
 </html>
