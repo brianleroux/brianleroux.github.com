@@ -74,6 +74,9 @@ dd {
     font-size:smaller;
 }
 
+@media screen and (max-device-width: 320px) {
+      .codehilite {width:280px; overflow:auto;}
+}
 
 .codehilite {padding:10px;}
 .codehilite .hll { background-color: #ffffcc }
