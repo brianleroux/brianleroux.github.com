@@ -1,0 +1,22 @@
+<h1>going webscale</h1>
+<p>I recently decided to clean up my personal online act in a more modern and mobile friendly manner. I started with this newer, shorter, domain
+which is pretty nice after 10 years of typing <a href="http://westcoastlogic.com">westcoastlogic.com</a>. Buidling a new personal site gave me the excuse I needed to author <a href="http://wtfjs.com">another</a> nodejs based blog library too. This time I opted for JavaScript's sexy little sister CoffeeScript. </p>
+<p>Check out this snippet of router logic:</p>
+<div class="codehilite"><pre><span class="nv">app = module.exports = </span><span class="nx">require</span> <span class="s1">&#39;./config&#39;</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">get</span> <span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="nf">(req, res) -&gt;</span> 
+    <span class="nx">res</span><span class="p">.</span><span class="nx">render</span> <span class="s1">&#39;index&#39;</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">get</span> <span class="s1">&#39;/about&#39;</span><span class="p">,</span> <span class="nf">(req, res) -&gt;</span> 
+    <span class="nx">res</span><span class="p">.</span><span class="nx">render</span> <span class="s1">&#39;about&#39;</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">get</span> <span class="s1">&#39;/contact&#39;</span><span class="p">,</span> <span class="nf">(req, res) -&gt;</span> 
+    <span class="nx">res</span><span class="p">.</span><span class="nx">render</span> <span class="s1">&#39;contact&#39;</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">listen</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">PORT</span> <span class="o">||</span> <span class="mi">3000</span>
+</pre></div>
+
+
+<p>You can <a href="http://github.com/brianleroux/brian.io">check out the source on github</a>.</p>
+<p>CoffeeScript really does bring out the hidden beauty of JavaScript. Anyhow, expect sporatic info here including coverage on
+that mobile project I tend to work on.</p>
