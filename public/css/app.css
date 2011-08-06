@@ -2,17 +2,18 @@ body {
     margin:0;
     padding:0;
     border:none;
-    font: 14px 'Rokkitt', Geogia, serif;
+    font: 1.5em 'Rokkitt', Geogia, serif;
+    color:#333;
 }
 
 nav {
-    border:1px solid #000;
+    border-bottom:1px solid #000;
 }
 
 nav ul {
     margin:0;
     padding:0;
-    border:1px solid #666;
+    border-bottom:1px solid #666;
     list-style:none;
     clear:left;
 
@@ -40,7 +41,7 @@ nav ul li {
 
 nav ul li a {
     color:#fff;
-    font-size:1.5em;
+/*    font-size:1.5em;*/
     text-decoration:none;
     display:block;
     padding:5px 10px 5px 10px;
@@ -51,10 +52,6 @@ nav ul li a:hover {
     background:#666;
 }
 
-nav ul li:first-child a {
-    border-top-left-radius:10px;
-    border-bottom-left-radius:10px;
-}
 
 /* its micky mouse bullshit like this that makes it difficult for me to take css seriously */
 .clearfix:after {
