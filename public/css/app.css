@@ -2,7 +2,7 @@ body {
     margin:0;
     padding:0;
     border:none;
-    font: 1.5em 'Rokkitt', Geogia, serif;
+    font: 1em 'Rokkitt', Geogia, serif;
     color:#333;
 }
 
@@ -41,7 +41,7 @@ nav ul li {
 
 nav ul li a {
     color:#fff;
-/*    font-size:1.5em;*/
+    font-size:1.5em;
     text-decoration:none;
     display:block;
     padding:5px 10px 5px 10px;
@@ -72,7 +72,11 @@ dd {
 }
 
 @media screen and (max-device-width: 320px) {
-      .codehilite {width:280px; overflow:auto;}
+    .codehilite {
+          width:280px; 
+          overflow:auto;
+          font-size:11px;
+    }
 }
 
 .codehilite {padding:10px;}
