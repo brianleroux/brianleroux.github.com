@@ -14,13 +14,11 @@ app.get '/blog/:n?', (req, res) ->
   Post.page req.params.n, (posts) -> 
     res.render('blog', posts)
 
-###
- GET "/2010/05/10/title-of-article" - post permalink
 app.get '/blog/:y/:m/:d/:title', (req, res) ->
-  Post.find(req.params, (post) -> res.render 'post', post
+  res.render 'post', post: new Post(req.params)
 
 app.get '/rss', (req, res) ->
-    res.headers['Content-Type'] = 'text/xml; charset=utf-8'
-    Post.rss res.send
-###
+  res.headers['Content-Type'] = 'text/xml; charset=utf-8'
+  Post.rss res.send
+
 app.listen process.env.PORT || 3000

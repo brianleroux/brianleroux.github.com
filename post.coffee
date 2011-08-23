@@ -5,8 +5,12 @@ postsPath = path.join __dirname, 'posts'
 # represents a file in ./posts
 class Post
   constructor: (@filename) ->
+    p = if typeof @filename is 'string' 
+          @filename.split('-') 
+        else 
+          [@filename.y, @filename.m, @filename.d, @filename.title.replace('-','')]
     # working arr of the post metadata
-    p = @filename.split('-')
+    # p = @filename.split('-')
     # grab the date parts
     [y, m, d] = p[0..3]
     # fudge for js date month
