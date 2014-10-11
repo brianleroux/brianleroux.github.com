@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/brianleroux
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://brian.io
+  * I am brianleroux (https://keybase.io/brianleroux) on keybase.
+  * I have a public key with fingerprint 1F58 B918 EB0D B730 4FE5  D590 B8BB BC2D EC13 D8E9
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "1f58b918eb0db7304fe5d590b8bbbc2dec13d8e9",
+            "host": "keybase.io",
+            "key_id": "b8bbbc2dec13d8e9",
+            "uid": "a5140726a0a171ebed3b8f82e0d13d00",
+            "username": "brianleroux"
+        },
+        "service": {
+            "hostname": "brian.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1413005973,
+    "expire_in": 157680000,
+    "prev": "c9c3143f2b575d1f3c474f6ac82831d0a7c5fa08267ebfbffed0f615fc15445d",
+    "seqno": 29,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yMHkAnicO8LLzMDFqP+/yefPmSWbGU8f+FjKEGJxaGq1UlJ+SqWSVbVSdiqYSsvM
+S08tKijKzCtRslIyTDO1SLI0tEhNMkhJMjc2MElLNU0xtTRIskhKSko2SklNNjRO
+sUi1VNJRysgvBukAGpOUWJyql5kPFANy4jNTgKJY1JeCJRJNDU0MzI3MEg0SDc0N
+U5NSU4yTLNIsjFINUoAqDQxACotTi/ISc1NBxhRlJublpBbll1Yo1eooASXKMpNT
+Qc4G2Y6sCGJ/QVF+SX5yfg5QNKOkpMAKpKmksgCkqjw1KR6qPz4pMy8F6G2ghrLU
+ouLM/DwlK0OgyuSSTJCBhiaGxgYGppbmxjpKqRUFmUWp8ZkgFabmZhYGQACyJrUM
+aGSyZbKxoYlxmlGSqblpimGacbKJuUmaWWKyhZGFsWGKQaJ5smlaooGFkZl5alJa
+UlpaaopBmpmhaVqyoamJiWmKEshHhXn5SlZGlkB3JqYDzSzOTM9LLCktSlWqPXQg
+hoWBkYuBjZUJFHMMXJwCsPg8aM7+PzHX+/xvufnr+T7c2fO55nOkQ5j0orKKeWGN
+3w9ZZCV7lPGusW/NEnR4ftv4mPudwKOl7BVanC0NTbuWxJ1jTQi9qVAzNb1BuLc7
+0zVxh9zJ70J/epdO2O7cVFodPX/WWeG2jHJtD39TFlFr/q+XS9K3lsl8WG0XtjpV
+esfZX9Lnty0SqXLQi3m6YotX0jeXeTavTrmteitQo9qcX6Sz4PbHzBn3vavD+5WK
+KuKZ4pdav9t7Ou3c0+/JV/gyBS867hLaH8HlISWhLewlpvpxmcyPljNMvYuibhw8
+kbaH8ae80uZPft/edhn7L9cstE2uMraeuaLtw/eH94viinK2sSxsPcARd0E67r/K
+hCcAeR4WnQ==
+=jtFP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brianleroux
+
+==================================================================
